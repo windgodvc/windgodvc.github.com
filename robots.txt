@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://windgodvc.github.io/sitemap.xml 
