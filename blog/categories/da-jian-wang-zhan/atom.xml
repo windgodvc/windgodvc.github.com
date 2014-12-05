@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 搭建,网站 | windgod 's blog]]></title>
   <link href="http://windgodvc.github.com/blog/categories/da-jian-wang-zhan/atom.xml" rel="self"/>
   <link href="http://windgodvc.github.com/"/>
-  <updated>2014-12-06T01:27:52+08:00</updated>
+  <updated>2014-12-06T01:29:47+08:00</updated>
   <id>http://windgodvc.github.com/</id>
   <author>
     <name><![CDATA[windgod]]></name>
@@ -18,7 +18,7 @@
     <link href="http://windgodvc.github.com/blog/2014/12/06/octopress-de-githubzhong-da-jian/"/>
     <updated>2014-12-06T00:56:48+08:00</updated>
     <id>http://windgodvc.github.com/blog/2014/12/06/octopress-de-githubzhong-da-jian</id>
-    <content type="html"><![CDATA[<pre><code>第一步当然就是到主页下载啦 [example link](https://github.com/imathis/octopress "Site")
+    <content type="html"><![CDATA[<pre><code>第一步当然就是到主页下载啦 [link](https://github.com/imathis/octopress "Site")
 </code></pre>
 ]]></content>
   </entry>
