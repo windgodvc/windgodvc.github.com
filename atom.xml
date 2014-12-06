@@ -4,7 +4,7 @@
   <title><![CDATA[windgod 's blog]]></title>
   <link href="http://windgodvc.github.com/atom.xml" rel="self"/>
   <link href="http://windgodvc.github.com/"/>
-  <updated>2014-12-07T01:47:04+08:00</updated>
+  <updated>2014-12-07T02:04:20+08:00</updated>
   <id>http://windgodvc.github.com/</id>
   <author>
     <name><![CDATA[windgod]]></name>
@@ -106,24 +106,24 @@
 <p><a href="http://www.http://windgodvc.github.io">http://www.http://windgodvc.github.io</a></p>
 
 <p><strong>有标题超链接</strong>
-<code>[标题](http://www.http://windgodvc.github.io)</code></p>
+<code>[标题](http://www.http://windgodvc.github.io “提示”)</code></p>
 
-<p><strong><a href="http://www.http://windgodvc.github.io%20%E2%80%9C%E6%A0%87%E9%A2%98%E2%80%9D">标题</a></strong></p>
+<p><strong><a href="http://www.http://windgodvc.github.io%20%E2%80%9C%E6%8F%90%E7%A4%BA%E2%80%9D">标题</a></strong></p>
 
 <p><strong>无标题Email</strong>
 <code>&lt;wingodvc@126.com&gt;</code></p>
 
-<p><a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#119;&#105;&#x6e;&#103;&#111;&#100;&#118;&#99;&#x40;&#x31;&#50;&#54;&#x2e;&#99;&#x6f;&#x6d;">&#x77;&#105;&#x6e;&#x67;&#111;&#100;&#118;&#99;&#64;&#x31;&#x32;&#x36;&#46;&#x63;&#x6f;&#109;</a></p>
+<p><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3a;&#119;&#x69;&#x6e;&#103;&#111;&#100;&#x76;&#99;&#x40;&#x31;&#50;&#x36;&#46;&#99;&#111;&#x6d;">&#x77;&#x69;&#x6e;&#x67;&#x6f;&#x64;&#x76;&#99;&#64;&#49;&#x32;&#54;&#46;&#x63;&#111;&#109;</a></p>
 
 <p><strong>有标题Email</strong>
 <code>[Email](wingodvc@126.com)</code></p>
 
-<p><a href="wingodvc@126.com" title="Email">Email</a></p>
+<p><a href="wingodvc@126.com%20%E2%80%9C%E6%8F%90%E7%A4%BA%E2%80%9D">Email</a></p>
 
 <p><strong>插入有标题图片</strong><br/>
 <code>![标题](https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/img/logo_white_ee663702.png "标题")</code></p>
 
-<p><img src="https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/img/logo_white_ee663702.png" title="标题" alt="标题" /></p>
+<p><img src="https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/img/logo_white_ee663702.png" title="提示" alt="标题" /></p>
 
 <p><strong>插入无标题图片</strong><br/>
 <code>![](https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/img/logo_white_ee663702.png)</code></p>
