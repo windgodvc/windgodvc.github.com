@@ -4,7 +4,7 @@
   <title><![CDATA[windgod 's blog]]></title>
   <link href="http://windgodvc.github.com/atom.xml" rel="self"/>
   <link href="http://windgodvc.github.com/"/>
-  <updated>2014-12-06T22:13:22+08:00</updated>
+  <updated>2014-12-06T22:18:40+08:00</updated>
   <id>http://windgodvc.github.com/</id>
   <author>
     <name><![CDATA[windgod]]></name>
@@ -82,7 +82,7 @@
         8.1报错后要求我 执行这个 命令 sudo gem install RedCloth -v '4.2.9'
         8.2我执行后没能成功，磨了一个小时后终于 让我找到是什么原因了 由于Xcode 并没有安装 Command Line Tools 所以导致 没能编译过去。
         9.rake install
-        10.Done  
+        10.Done    
 </code></pre>
 
 <hr />
@@ -107,8 +107,14 @@
         14.命令 git add .
         14.1 命令 git commit -m 'message'
         14.2 命令 git push origin source
-        15.Done //全部完成  只需要等待几分钟 再用 username.github.com 打开就可以看到博客了 注 username 是你的用户名  如果 没几分钟 等待。将会页面404...这里被坑了 我就是没等待 见还是 404 重做了博客  三次。最后 才没招 了 就放下部署 去写代码 结果写完代码后 。奇怪的发现 没有404了。才知道 要等待。
+        15.Done //全部完成 只需要等待几分钟 再用 username.github.com 
+            打开就可以看到博客了 注 username 是你的用户名  
+            如果 没几分钟 等待。将会页面404...这里被坑了 
+            我就是没等待 见还是 404 重做了博客  三次。最后 才没招 了 
+            就放下部署 去写代码 结果写完代码后 。奇怪的发现 没有404了。才知道 要等待。  
 </code></pre>
+
+<h5><code>其中部署完后我也折腾 了下主题 换了好几个主题 还是觉得默认的主题好看些</code></h5>
 ]]></content>
   </entry>
   
