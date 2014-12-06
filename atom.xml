@@ -4,7 +4,7 @@
   <title><![CDATA[windgod 's blog]]></title>
   <link href="http://windgodvc.github.com/atom.xml" rel="self"/>
   <link href="http://windgodvc.github.com/"/>
-  <updated>2014-12-06T22:42:36+08:00</updated>
+  <updated>2014-12-06T22:45:05+08:00</updated>
   <id>http://windgodvc.github.com/</id>
   <author>
     <name><![CDATA[windgod]]></name>
@@ -36,19 +36,10 @@
 <h3>下面开始</h3>
 
 <blockquote><ul>
-<li>我的环境是Mac</li>
-<li><ol>
-<li>确保安装了github 没有安装的 看<code>步骤一</code></li>
-</ol>
-</li>
-<li><ol>
-<li>确保安装好了 Ruby 没有安装 看<code>步骤二</code></li>
-</ol>
-</li>
-<li><ol>
-<li>保证安装了GCC</li>
-</ol>
-</li>
+<li>1.我的环境是Mac</li>
+<li>2.确保安装了github 没有安装的 看<code>步骤一</code></li>
+<li>3.确保安装好了 Ruby 没有安装 看<code>步骤二</code></li>
+<li>4.保证安装了GCC</li>
 </ul>
 </blockquote>
 
