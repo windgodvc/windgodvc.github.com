@@ -133,80 +133,12 @@
 </ul>
 </blockquote>
 
-<hr />
-
-<pre><code>步骤一
-        两个方法
-
-        1.下载 :http://code.google.com/p/git-osx-installer/ 下载最新的PGK文件。
-        &lt;!--more--&gt;
-        2.命令 curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz –strip 1 -C /usr/local 安装brew 
-         1.1 命令执行完之后  看看Homebrew 有没有安装成功 
-         1.2 brew -v 有版本输出则成功了
-         1.3 brew install git 
-         1.4 等待安装完成 git
-</code></pre>
-
-<hr />
-
-<pre><code>步骤二
-        安装Ruby 用brew 安装即可
-        命令
-        brew install ruby
-</code></pre>
-
-<hr />
-
-<pre><code>Octopress安装
-
-        1.git clone git:://github.com/imathis/octopress.git octopress
-        2.cd octopress 
-        3.open . 
-        4.sudo gem install bundler 
-        5.rbenv rehash
-        6.sudo bundle install
-        7.rbenv rehash
-        8.sudo bundler install //由于我的ruby 版本太高可能不兼容吧 。坑了两个小时 没报错的直接到 9
-        8.1报错后要求我 执行这个 命令 sudo gem install RedCloth -v '4.2.9'
-        8.2我执行后没能成功，磨了一个小时后终于 让我找到是什么原因了 由于Xcode 并没有安装 Command Line Tools 所以导致 没能编译过去。
-        9.rake install
-        10.Done    
-</code></pre>
-
-<hr />
-
-<pre><code>推上GitHub
-
-        1.cd ~/.ssh
-        2.ssh-keygen -t rsa -C 登陆名
-        3.弹出 Enter file in which to save the key (/Users/twer/.ssh/id_rsa): 直接按空格
-        4.要求输入密码
-        4.1 验证密码再 次输入就是了
-        5.open .
-        6.打开id_rsa.pub 把内容复制
-        7.打开GitHub setings - SSH keys - ADD SSH key -标题随便你自己喜欢 --key 把 id_rsa.pub 的内容复制进去 添加Key
-        8.登陆github 创建一个仓库 ，仓库名称为username.github.com比如我的是windgod.github.com //注 必须要用自己的用户名。。。
-        9.复制 创建好的SSH地址下来 待会用到
-        10.切换回 Octopress 目录
-        11.rake setup_github_pages
-        11.1 输出刚才复制下的SSH地址粘贴进去
-        12.命令 rake generate //生成 这个在写完文章后都要调用 这里可以本地预览下 命令 rake preview web 打开 http://localhost:4000/ 即可看到。
-        13.命令 rake deploy // 传上GitHub 中 
-        14.命令 git add .
-        14.1 命令 git commit -m 'message'
-        14.2 命令 git push origin source
-        15.Done //全部完成 只需要等待几分钟 再用 username.github.com 
-            打开就可以看到博客了 注 username 是你的用户名  
-            如果 没几分钟 等待。将会页面404...这里被坑了 
-            我就是没等待 见还是 404 重做了博客  三次。最后 才没招 了 
-            就放下部署 去写代码 结果写完代码后 。奇怪的发现 没有404了。才知道 要等待。  
-</code></pre>
-
-<h5><code>其中部署完后我也折腾 了下主题 换了好几个主题 还是觉得默认的主题好看些</code></h5>
-
-<h2><strong>原创：转载请注明地址。谢谢合作！</strong></h2>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/12/06/octopress-de-githubzhong-da-jian/">Read on &rarr;</a>
+    </footer>
   
 
 
